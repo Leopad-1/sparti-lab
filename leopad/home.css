@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(16, 27, 59);
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid #ff0000;
+    padding: 10px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: rgb(0, 0, 15);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    display: block;
+    margin: 0 auto;
+}
+
+.product h2,
+.product p {
+    margin: 10px 0;
+}
+
+
+/* Estilos generales */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.product p {
+    margin-top: 5px;
+}
+
+.product button {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
+
+header {
+    text-align: center;
+}
+
+
+/* Estilos para los botones de redes sociales */
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    /* Ajusta la posición vertical */
+    transform: translateY(-50%);
+    right: 20px;
+    /* Ajusta la posición horizontal */
+}
+
+.redes-sociales li {
+    margin-bottom: 10px;
+}
+
+.redes-sociales li:last-child {
+    margin-bottom: 0;
+}
+
+.redes-sociales li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #3b5998;
+    /* Cambia este color al de la red social correspondiente */
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.redes-sociales li a:hover {
+    background-color: #2a3f8e;
+    /* Cambia este color al de la red social correspondiente */
+}
